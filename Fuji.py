@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 #まずはスクレイピング．
-Fuji = webdriver.Chrome("/Users/yamaguchiyuhei/Desktop/chromedriver")
+Fuji = webdriver.Chrome("chromedriver")
 
 #藤井くんの勝敗のサイトを開く
 Fuji.get('https://shogi-sanpo.com/fujiisouta/result/')
