@@ -1,7 +1,7 @@
 library(tidyverse)
 library(rstan)
 
-fit <- stan(file="/Users/yamaguchiyuhei/Desktop/Fuji.stan",
+fit <- stan(file="Fuji.stan",
             data=standata, 
             iter=5000,
             warmup=1000,
